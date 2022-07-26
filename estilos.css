@@ -1,0 +1,27 @@
+html,
+body{
+    /* seleccion de color principal,fuente, tamanio de la fuente, background color */
+    color:#555;
+    font-family: Arial;
+    font-size: 18px;
+    margin: 0;
+    background-color: darkgrey;
+
+
+
+}
+/* margenes 3rem para que el margen sea 3x18 al lado izquierdo sera automatico con comando auto 
+width relativo a la dimension del monitor
+*/
+main{
+    margin:3rem auto;
+    
+    max-width: 90vw;
+    width: 54ch;
+}
+
+header{
+    color: #333;
+    font-size:2rem;
+    margin:0 0 1.5rem;
+}
