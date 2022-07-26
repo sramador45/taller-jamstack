@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos.css">
-    <!-- Linkeo de css con html. -->
-    <title>Jamstack</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./estilos.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JamStack</title>
 </head>
 <body>
   <main>
-    <header>
-        <!-- Titulo de la pagina -->
-        Pagina de taller
-    </header>
+    <h1>Hola mundo</h1>
     <p>
-        Este es mi repositorio de github
+     Me gusta programar he aquí alguno de mis proyectos:
     </p>
-    <input type="text" name="name" id="name">
-   
-    <button
-    
-        id="buscar" type="button">buscar
-    </button>
-     <!-- button para buscar -->
-  </main>  
-  <!-- conectando el js al html -->
+    <input type="text" id="name" name="name" required
+    minlength="4"  > <button id="buscar" type="button">buscar</button>
+    <div id="contenido"></div>
+  </main>
+
   <script type="module" src="./main.js"></script>
 </body>
 </html>
