@@ -10,6 +10,7 @@ const listRepos = username => {
     const content=document.getElementById("contenido");
     const markup =listRepos.map((repo)=>`<li>
     <a href="${repo.html_url}">${repo.name}</a>
+    (⭐️ ${repo.stargazers_count})
     </li>`)
 
  //sirve para concatenar todos los elementos del arreglo en un string
